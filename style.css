@@ -379,17 +379,28 @@ section p {
 
   .hero {
     flex-direction: column-reverse;
-    align-items: flex-start;
-    gap: 30px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
   }
 
   .hero h1 {
     font-size: 38px;
   }
 
+  .hero-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border: 3px solid #ffffff;
+    margin-bottom: -10px;
+  }
+
   .hero-photo img {
-    width: 130px;
-    height: 130px;
+    border-radius: 50%;
+    object-position: center 15%;
+    transform: scale(1.1);
   }
 
   .hero-contact-text {
